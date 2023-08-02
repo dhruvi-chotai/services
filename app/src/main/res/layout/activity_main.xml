@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16sp"
+    android:gravity="center"
+    tools:context="com.example.services_demo.MainActivity">
+
+    <Button
+        android:id="@+id/foreground_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foreground Service with local broadcast receiver"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/background_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Background Service with local broadcast receicer"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/bound_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Bound Service with intent extra"
+        android:gravity="center_horizontal"/>
+
+
+</LinearLayout>
